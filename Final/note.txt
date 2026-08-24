@@ -1,0 +1,9 @@
+# Rules for Travelling Salesman Problem (TSP) :
+  1. Every city must be visited exactly once
+  2. The salesman must return to the starting city
+  3. There is a cost/distance between cities
+  4. The objective is to minimize the total cost
+
+# Now we can solve this problem by applying DAG shortest path or different shortest paths algorithm. But in this scenario we might need to access a single node multiple times for shortest path and that's where the problem is! Because in TSP we can't access a single node more than once. That's why we need "Branch & Bound" method or DP. So, suppose in a airplane ticket problem the problem states that one can take multiple transit but we have to calculate the most minimum cost then we can solve it using DAG or other shortest path algorithm. But if the problem states that the user cant make a transit or visit every single destination only once then we need "Branch and Bound" or even better DP.
+
+# Time complexity for branch and bound is O(n!) since we apply brute force and manually check all the possibilities

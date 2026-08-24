@@ -1,0 +1,1 @@
+Greedy Problems can be easily solved by sorting first
