@@ -1,1 +1,2 @@
-Greedy Problems can be easily solved by sorting first
+# Greedy Problems can be easily solved by sorting first.
+# Greedy problems can also be solved by using priority queue since all the data  are already sorted
